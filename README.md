@@ -23,7 +23,7 @@ the test set with near-twins in train); grouped splits remove it. (B) Held-out R
 falls from random -> scaffold -> cluster -> time on both endpoints. (C) Global
 normalised conformal over-covers as splits harden; Mondrian difficulty-binned
 conformal restores near-nominal 0.90 coverage. (D) Interval width grows from near
-to novel test compounds — uncertainty tracks chemical distance.)*
+to novel test compounds, uncertainty tracks chemical distance.)*
 ---
 
 ## Data sources and harmonisation
