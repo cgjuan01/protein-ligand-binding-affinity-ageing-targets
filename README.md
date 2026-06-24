@@ -1,6 +1,6 @@
 # Protein-ligand binding affinity: leakage-aware validation
 
-A machine learning pipeline for **protein–ligand binding-affinity** prediction,
+A machine learning pipeline for **protein-ligand binding-affinity** prediction,
 built to test the question that matters in practice: *does the model actually
 generalise to novel chemical space, or is it memorising near-duplicate analogues?*
 The pipeline harmonises affinity data across **ChEMBL and BindingDB**, enforces
