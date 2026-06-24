@@ -5,7 +5,7 @@ built to test the question that matters in practice: *does the model actually
 generalise to novel chemical space, or is it memorising near-duplicate analogues?*
 The pipeline harmonises affinity data across **ChEMBL and BindingDB**, enforces
 **rigorous train/test splits** (scaffold, cluster, and temporal, not naive
-random), runs an explicit **data-leakage audit**, and reports **calibrated
+random), runs an explicit **data leakage audit**, and reports **calibrated
 conformal uncertainty**, all with multi-seed error bars. The model is a random
 forest by design (an auditable baseline) so the contribution is the *validation
 rigour*, and the split/audit/conformal harness is model-agnostic.
