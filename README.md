@@ -18,7 +18,7 @@ overclaiming a hit (see *Honest scope*, below).
 
 ![Rigor analysis: leakage audit, prospective performance, conformal calibration, applicability domain](rigor_figure.png)
 
-**Figure.** (A) Naive random splitting leaks heavily — hundreds of exact duplicates, ~half the test set with near-twins in train; grouped splits remove it. (B) Held-out R² falls from random → scaffold → cluster → time on both endpoints. (C) Global normalised conformal over-covers as splits harden; Mondrian difficulty-binned conformal restores near-nominal 0.90 coverage. (D) Interval width grows from near to novel test compounds — uncertainty tracks chemical distance.
+> **Figure.** (A) Naive random splitting leaks heavily — hundreds of exact duplicates, ~half the test set with near-twins in train; grouped splits remove it. (B) Held-out R² falls from random → scaffold → cluster → time on both endpoints. (C) Global normalised conformal over-covers as splits harden; Mondrian difficulty-binned conformal restores near-nominal 0.90 coverage. (D) Interval width grows from near to novel test compounds — uncertainty tracks chemical distance.
 ---
 
 ## Data sources and harmonisation
